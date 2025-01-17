@@ -1,0 +1,41 @@
+2025-01-18 00:11:31.068  INFO 36356 --- [main] c.e.demo.RamShoppingCartApplication      : Starting RamShoppingCartApplication on ram with PID 36356 (started by RAM SANDEEP in C:\Users\RAM SANDEEP\Downloads\java project\test\final test\Java-Project\E-commerce Application)
+2025-01-18 00:11:31.080  INFO 36356 --- [main] c.e.demo.RamShoppingCartApplication      : No active profile set, falling back to default profiles: default
+2025-01-18 00:11:31.907  INFO 36356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2025-01-18 00:11:32.015  INFO 36356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 96ms. Found 4 repository interfaces.
+2025-01-18 00:11:32.862  INFO 36356 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c644d36b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-01-18 00:11:33.438  INFO 36356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2025-01-18 00:11:33.522  INFO 36356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-01-18 00:11:33.524  INFO 36356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2025-01-18 00:11:33.851  INFO 36356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-01-18 00:11:33.853  INFO 36356 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2637 ms
+2025-01-18 00:11:34.365  INFO 36356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-18 00:11:34.562  INFO 36356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-18 00:11:34.689  INFO 36356 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2025-01-18 00:11:34.898  INFO 36356 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2025-01-18 00:11:34.902  INFO 36356 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2025-01-18 00:11:35.231  INFO 36356 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2025-01-18 00:11:35.616  INFO 36356 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-01-18 00:11:37.132  INFO 36356 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-18 00:11:38.126  WARN 36356 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-18 00:11:38.264  INFO 36356 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@da67c46, org.springframework.security.web.context.SecurityContextPersistenceFilter@2626aa35, org.springframework.security.web.header.HeaderWriterFilter@49bc71b4, org.springframework.web.filter.CorsFilter@5c7e55a4, org.springframework.security.web.authentication.logout.LogoutFilter@2b506a79, com.example.demo.security.JWTAuthenticationFilter@7ae6927, com.example.demo.security.JWTAuthenticationVerficationFilter@7d0df326, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c614d8c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a14f7d7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43f7f48d, org.springframework.security.web.session.SessionManagementFilter@6c2f8ecb, org.springframework.security.web.access.ExceptionTranslationFilter@2699b656, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dac0784]
+2025-01-18 00:11:38.447  INFO 36356 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2025-01-18 00:11:38.741  INFO 36356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2025-01-18 00:11:38.744  INFO 36356 --- [main] c.e.demo.RamShoppingCartApplication      : Started RamShoppingCartApplication in 8.178 seconds (JVM running for 8.741)
+2025-01-18 00:11:46.111  INFO 36356 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-01-18 00:11:46.119  INFO 36356 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-01-18 00:11:46.135  INFO 36356 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
+2025-01-18 00:11:46.340 ERROR 36356 --- [http-nio-8080-exec-2] e.d.s.JWTAuthenticationVerficationFilter : Error Authentication Verification. User is null.
+2025-01-18 00:11:46.372 ERROR 36356 --- [http-nio-8080-exec-2] e.d.s.JWTAuthenticationVerficationFilter : Error Authentication Verification. User is null.
+2025-01-18 00:11:46.868  INFO 36356 --- [http-nio-8080-exec-2] c.e.demo.controllers.UserController      : User created. Username: test1212
+2025-01-18 00:11:49.291  WARN 36356 --- [http-nio-8080-exec-3] e.d.s.JWTAuthenticationVerficationFilter : Warning Authentication Verification. Wrong header in doFilterInternal.
+2025-01-18 00:11:49.291  WARN 36356 --- [http-nio-8080-exec-3] e.d.s.JWTAuthenticationVerficationFilter : Warning Authentication Verification. Wrong header in doFilterInternal.
+2025-01-18 00:11:53.922  WARN 36356 --- [http-nio-8080-exec-4] e.d.s.JWTAuthenticationVerficationFilter : Warning Authentication Verification. Wrong header in doFilterInternal.
+2025-01-18 00:11:53.922  WARN 36356 --- [http-nio-8080-exec-4] e.d.s.JWTAuthenticationVerficationFilter : Warning Authentication Verification. Wrong header in doFilterInternal.
+2025-01-18 00:11:57.911  WARN 36356 --- [http-nio-8080-exec-5] e.d.s.JWTAuthenticationVerficationFilter : Warning Authentication Verification. Wrong header in doFilterInternal.
+2025-01-18 00:11:57.914  WARN 36356 --- [http-nio-8080-exec-5] e.d.s.JWTAuthenticationVerficationFilter : Warning Authentication Verification. Wrong header in doFilterInternal.
+2025-01-18 00:12:08.712  INFO 36356 --- [Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2025-01-18 00:12:08.712  INFO 36356 --- [Thread-3] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-18 00:12:08.712  INFO 36356 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-18 00:12:08.712  INFO 36356 --- [Thread-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
