@@ -1,3 +1,5 @@
+package org.example;
+
 public class Sudoku {
 
         private static final int SIZE = 9; // Standard Sudoku size
