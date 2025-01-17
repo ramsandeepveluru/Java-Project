@@ -1,2 +1,2 @@
-# Java-Project
+# RD INFRO TECHNOLOGY
 JAVA DEVELOPMENT internship 
